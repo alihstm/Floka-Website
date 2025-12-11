@@ -1,0 +1,134 @@
+:root {
+  --vazir-font: Vazirmatn;
+  --alexandria-font: Alexandria;
+  --kalame-font: Kalameh, Vazirmatn;
+  --DM-font: DM Serif Text;
+  --color-primary: #b9ff66;
+  --color-secondary: #f3f3f3;
+  --color-bg: #000000;
+  --color-black: #191a23;
+  --color-white: #ffffff;
+}
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-bg {
+  color: var(--color-bg);
+}
+.text-black {
+  color: var(--color-black);
+}
+.text-white {
+  color: var(--color-white);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-bg {
+  background-color: var(--color-bg);
+}
+.bg-black {
+  background-color: var(--color-black);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
+
+.border-primary {
+  border-color: var(--color-primary);
+}
+.border-secondary {
+  border-color: var(--color-secondary);
+}
+.border-bg {
+  border-color: var(--color-bg);
+}
+
+@font-face {
+  font-family: "Kalameh";
+  src: url("../assets/Fonts/KalamehWebFaNum/KalamehWebFaNum/Web Fonts/eba1f76fb362790bbfa2f7a343904394.woff2")
+      format("woff2"),
+    url("../assets/Fonts/KalamehWebFaNum/KalamehWebFaNum/Web Fonts/eba1f76fb362790bbfa2f7a343904394.woff")
+      format("woff"),
+    url("../assets/Fonts/KalamehWebFaNum/KalamehWebFaNum/KalamehWebFaNum.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.vazir-font {
+  font-family: var(--vazir-font);
+}
+.alexandria-font {
+  font-family: var(--alexandria-font);
+}
+.kalame-font {
+  font-family: var(--kalame-font);
+}
+.DM-font {
+  font-family: var(--DM-font);
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 4s ease infinite;
+}
+.animation-float {
+  animation: float 2s ease-in-out infinite;
+}
+
+.text-gradient-primary-black-animated {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-white));
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 4s ease infinite;
+}
+
+.spinning-animation {
+  animation: spin 10s linear infinite;
+}
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
