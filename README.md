@@ -1,11 +1,11 @@
-# 🌐 Floka — Creative Development Team Website
+<img width="1920" height="3950" alt="FireShot Capture 016 - Floka Team - localhost" src="https://github.com/user-attachments/assets/6b1cb011-70e7-4a25-ae11-e0d6171722af" /># 🌐 Floka — Creative Development Team Website
 
 A modern and responsive website built for **Floka**, a creative software development team.  
 The site showcases the team’s services, portfolio, and projects — designed with a sleek, minimal aesthetic and smooth animations.
 
 Visit Here 👉 https://floka-website.vercel.app/
 
-<img width="1920" height="3950" alt="FireShot Capture 016 - Floka Team - localhost" src="https://github.com/user-attachments/assets/68e2d3b3-4711-4abc-aa12-6b506d87ce4a" />
+<img width="1920" height="3950" alt="FireShot Capture 016 - Floka Team - localhost" src="https://github.com/user-attachments/assets/f4214a3f-9a66-4d25-9717-42cd5f2f024f" />
 
 ![React](https://img.shields.io/badge/React-18.0+-61DAFB.svg)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.0+-38B2AC.svg)
