@@ -1,4 +1,4 @@
-<img width="1920" height="3950" alt="FireShot Capture 016 - Floka Team - localhost" src="https://github.com/user-attachments/assets/6b1cb011-70e7-4a25-ae11-e0d6171722af" /># 🌐 Floka — Creative Development Team Website
+# 🌐 Floka — Creative Development Team Website
 
 A modern and responsive website built for **Floka**, a creative software development team.  
 The site showcases the team’s services, portfolio, and projects — designed with a sleek, minimal aesthetic and smooth animations.
