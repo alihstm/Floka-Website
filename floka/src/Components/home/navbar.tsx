@@ -57,18 +57,18 @@ const NavBar = () => {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-full h-screen bg-[#000000]/95 backdrop-blur-xl flex flex-col items-center justify-start pt-[8rem] gap-10 kalame-font font-medium text-2xl text-white transform transition-all duration-500 ease-in-out ${
+        className={`fixed top-0 left-0 w-full h-screen bg-[#000000]/90 flex flex-col items-center justify-start pt-[8rem] gap-10 kalame-font font-medium text-2xl text-white transform transition-opacity duration-300 ease-in-out will-change-transform will-change-opacity ${
           menuOpen
             ? "translate-y-0 opacity-100"
-            : "-translate-y-full opacity-0 pointer-events-none"
+            : "-translate-y-10 opacity-0 pointer-events-none"
         }`}
       >
         {navItems.map(({ id, text }, index) => (
           <button
             key={id}
             onClick={() => handleScroll(id)}
-            className={`hover:text-[#B9FF66] transition-all duration-200 ${
-              menuOpen ? `animate-fadeIn delay-[${index * 100}ms]` : ""
+            className={`hover:text-[#B9FF66] transition-colors duration-200 ${
+              menuOpen ? `animate-fadeIn` : ""
             }`}
           >
             {text}
