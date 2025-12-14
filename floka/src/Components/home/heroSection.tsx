@@ -4,6 +4,13 @@ import "aos/dist/aos.css";
 import Illustration from "../../assets/Material/illustration4.svg";
 
 const HeroSection = () => {
+  const handleScroll = () => {
+    const element = document.getElementById("projects");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   useEffect(() => {
     AOS.init({
       duration: 300,
@@ -29,7 +36,10 @@ const HeroSection = () => {
             ساختن آینده، هربار با یک خط کد
           </p>
         </div>
-        <button className="sm:text-lg text-sm alexandria-font font-bold text-bg py-5 w-full bg-primary backdrop-blur-xl rounded-lg transition duration-150 hover:cursor-pointer active:scale-95 ">
+        <button
+          onClick={() => handleScroll()}
+          className="sm:text-lg text-sm alexandria-font font-bold text-bg py-5 w-full bg-primary backdrop-blur-xl rounded-lg transition duration-150 hover:cursor-pointer active:scale-95 "
+        >
           مشاهده نمونه کارها
         </button>
       </div>
