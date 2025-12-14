@@ -31,7 +31,7 @@ const Works = () => {
                     href={p.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-sm vazir-font text-lg hover:underline underline-offset-7 transition duration-150 font-semibold text-center p-1 sm:w-30 w-25 border border-primary bg-black text-primary"
+                    className="rounded-sm vazir-font sm:text-lg text-sm hover:underline underline-offset-7 transition duration-150 font-semibold text-center sm:p-1 p-2 sm:w-30 w-25 border border-primary bg-black text-primary"
                   >
                     گیتهاب
                   </a>
@@ -42,7 +42,7 @@ const Works = () => {
                     href={p.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-sm vazir-font text-lg hover:underline underline-offset-7 transition duration-150 font-semibold text-center p-1 sm:w-30 w-25 border border-primary bg-black text-primary"
+                    className="rounded-sm vazir-font sm:text-lg text-sm hover:underline underline-offset-7 transition duration-150 font-semibold text-center sm:p-1 p-2 sm:w-30 w-25 border border-primary bg-black text-primary"
                   >
                     دمو
                   </a>
