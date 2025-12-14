@@ -60,7 +60,7 @@ const NavBar = () => {
         className={`fixed top-0 left-0 w-full h-screen bg-[#000000]/90 flex flex-col items-center justify-start pt-[8rem] gap-10 kalame-font font-medium text-2xl text-white transform transition-opacity duration-300 ease-in-out will-change-transform will-change-opacity ${
           menuOpen
             ? "translate-y-0 opacity-100"
-            : "-translate-y-10 opacity-0 pointer-events-none"
+            : "opacity-0 pointer-events-none"
         }`}
       >
         {navItems.map(({ id, text }) => (
