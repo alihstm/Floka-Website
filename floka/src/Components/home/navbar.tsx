@@ -63,7 +63,7 @@ const NavBar = () => {
             : "-translate-y-10 opacity-0 pointer-events-none"
         }`}
       >
-        {navItems.map(({ id, text }, index) => (
+        {navItems.map(({ id, text }) => (
           <button
             key={id}
             onClick={() => handleScroll(id)}
