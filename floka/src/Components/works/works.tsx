@@ -11,7 +11,7 @@ const Works = () => {
   }
 
   return (
-    <main className="flex flex-col items-center w-full min-h-[100vh] py-10 sm:px-20 px-3 bg-bg">
+    <main className="flex flex-col items-center w-full min-h-[100vh] py-10 sm:px-20 px-3 gradient-bg">
       <h1 className="sm:text-4xl text-3xl kalame-font text-primary mb-15">
         {categoryData.title}
       </h1>

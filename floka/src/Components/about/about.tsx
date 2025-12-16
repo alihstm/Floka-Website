@@ -2,13 +2,15 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Illustration2 from "../../assets/Material/illustration8.svg";
-import { FaReact, FaPython, FaFlutter } from "react-icons/fa6";
+import { FaReact, FaPython } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 const About = (): any => {
+  const navigate = useNavigate();
+
   const boxes = [
     { id: 1, tech: "React.js & TypeScript", icon: FaReact },
     { id: 2, tech: "Python & Django", icon: FaPython },
-    { id: 3, tech: "Dart & Flutter", icon: FaFlutter },
   ];
 
   useEffect(() => {
@@ -60,6 +62,12 @@ const About = (): any => {
                 </div>
               );
             })}
+            <button
+              onClick={() => navigate(`/team`)}
+              className="flex items-center justify-center sm:py-5 py-4 px-20 w-full text-black vazir-font font-bold bg-[#b9ff66] hover:bg-[#b9ff66]/20 hover:!text-white active:scale-95 backdrop-blur-xl hover:cursor-pointer rounded-xl gap-4 transition duration-150"
+            >
+              مشاهده اعضای تیم
+            </button>
           </div>
         </div>
       </div>

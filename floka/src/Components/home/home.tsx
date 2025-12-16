@@ -10,7 +10,7 @@ const Main = (): any => {
   return (
     <main
       id="home"
-      className="relative flex flex-col items-center w-screen max-w-full overflow-x-hidden bg-bg text-white"
+      className="relative flex flex-col items-center w-screen max-w-full overflow-x-hidden gradient-bg2 text-white"
     >
       <AnimatedBackground />
       <NavBar />

@@ -132,3 +132,16 @@
   transform: translateY(30px);
   transition: all 0.6s ease-out;
 }
+
+.gradient-bg {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #b9ff66, #01001f, #2c5364);
+}
+.gradient-bg2 {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #01001f, #0f2027);
+}
+  /* background: linear-gradient(135deg, #0f2027, #2c5364, #0f2027); */
+  /* background: linear-gradient(135deg, #0f2027, #01001f, #0f2027); */
